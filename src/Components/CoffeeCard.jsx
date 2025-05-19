@@ -6,7 +6,7 @@ import { Link } from 'react-router';
 import Swal from 'sweetalert2';
 
 const CoffeeCard = ({ coffee ,setCoffees,coffees}) => {
-  const { _id, name, supplier, taste, category, details, photo, price } = coffee;
+  const { _id, name, supplier,  photo, price } = coffee;
 
 
   const handleDelete=(_id)=>{
