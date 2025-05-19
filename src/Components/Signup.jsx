@@ -3,10 +3,12 @@ import { AuthContext } from '../Context/AuthContext';
 import Swal from 'sweetalert2';
 
 const Signup = () => {
+   
     const { createUserWithEmail } = useContext(AuthContext);
+   
     const handleSignup = (e) => {
         e.preventDefault()
-
+    
 
         const form = e.target;
         const formData = new FormData(form);
